@@ -1,0 +1,90 @@
+
+/* Apply some initial styles to the header */
+#header {
+    background-color: #333;
+    color: #fff;
+    /*padding: 20px;
+    /*position: relative;*/
+    /*border-radius: 40px;*/
+}
+/* Set a background image for the entire webpage */
+.con{
+    background: url(arkaplan.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    /*background-size: cover; /* This scales the image to cover the entire viewport */
+    /*background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+.contai{
+    background: url(get.arkaplan.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+
+
+
+#content .title{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: fantasy;
+    color: #6941fd;
+}
+
+#content h2{
+    font-family: fantasy;
+    color: rgb(255, 238, 216);
+}
+
+
+
+.center .buttons{
+    margin: 35px 280px;
+}
+    
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-family: fantasy;
+    color: #443d5f;
+    background: rgb(255, 255, 255);
+    border: solid 2px black;
+    border-radius: 25px;
+    transition: .5s;
+   
+}
+
+.buttons button a.a{
+    text-decoration: none;
+}
+    
+.buttons button:hover{
+    background: #443d5f8c;
+}
+
+/* Apply CSS styles to the list and list items */
+/* Target the unordered list (ul) */
+ul {
+    list-style: none; /* Remove the default list bullets/numbers */
+    padding: 0; /* Remove default padding */
+}
+
+/* Target the list items (li) */
+ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px; /* Add some spacing between items */
+}
+
+/* Style the anchor (a) elements within list items */
+ul li a {
+    text-decoration: none; /* Remove underline on links */
+    color: #fff; /* Set the link color */
+    font-family: fantasy;
+    margin-bottom: 1px;
+}
+
+
